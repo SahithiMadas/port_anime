@@ -5,7 +5,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/port_anime', // ⛔️ Replace with your GitHub repo name
+  basePath: '/port_anime', // 🔥 this MUST match your repo name
 };
 
 export default nextConfig;
