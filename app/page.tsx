@@ -192,9 +192,9 @@ export default function Home() {
                     <p className="text-lg text-blue-500">University at Albany, SUNY</p>
                   </div>
                   <div className="mt-4 md:mt-0 md:text-right">
-                    <p className="text-sm text-muted-foreground">Expected May 2025</p>
-                    <div className="mt-2 inline-block rounded-full bg-gradient-to-r from-purple-500/10 to-blue-500/10 px-3 py-1 text-xs font-medium text-foreground">
-                      In Progress
+                    <p className="text-sm text-muted-foreground">August 2023 - May 2025</p>
+                    <div className="mt-2 inline-block rounded-full bg-gradient-to-r from-green-500/10 to-emerald-500/10 px-3 py-1 text-xs font-medium text-foreground">
+                      Completed
                     </div>
                   </div>
                 </div>
