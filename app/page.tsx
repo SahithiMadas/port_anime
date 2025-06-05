@@ -234,6 +234,60 @@ export default function Home() {
               </div>
             </SectionTransition>
 
+
+
+
+            
+            <SectionTransition delay={0.2}>
+              <div className="rounded-xl border bg-background p-6 shadow-md transition-all duration-300 hover:shadow-lg">
+                <div className="flex flex-col md:flex-row md:items-center md:justify-between">
+                  <div>
+                    <h3 className="text-xl font-bold text-foreground">Bachelor of Technology in Computer Science</h3>
+                    <p className="text-lg text-blue-500">Andhra University College of Engineering</p>
+                  </div>
+                  <div className="mt-4 md:mt-0 md:text-right">
+                    <p className="text-sm text-muted-foreground">August 2019 - May 2023</p>
+                    <div className="mt-2 inline-block rounded-full bg-gradient-to-r from-green-500/10 to-emerald-500/10 px-3 py-1 text-xs font-medium text-foreground">
+                      Completed
+                    </div>
+                  </div>
+                </div>
+
+                <div className="mt-6">
+                  <p className="text-sm font-medium text-foreground mb-3">Key Coursework:</p>
+                  <div className="flex flex-wrap gap-2 mb-6">
+                    {[
+                      "Data Structures",
+                      "Algorithms",
+                      "Database Warehousing",
+                      "Web Development",
+                      "Cryptography & Data Security",
+                      "Software Engineering",
+                    ].map((course, i) => (
+                      <span
+                        key={i}
+                        className="rounded-full bg-gradient-to-r from-purple-500/10 to-blue-500/10 px-3 py-1 text-xs font-medium text-foreground"
+                      >
+                        {course}
+                      </span>
+                    ))}
+                  </div>
+
+                  <p className="text-sm font-medium text-foreground mb-3">Roles & Achievements:</p>
+                  <ul className="ml-5 list-disc space-y-1 text-muted-foreground">
+                    <li className="text-sm">Council Member, The Communicons Club</li>
+                    <li className="text-sm">Full Stack Web Development Intern at APSSDC</li>
+                    <li className="text-sm">Participated in coding competitions</li>
+                  </ul>
+                </div>
+              </div>
+            </SectionTransition>
+
+
+
+
+
+            
             <SectionTransition delay={0.2}>
               <div className="rounded-xl border bg-background p-6 shadow-md transition-all duration-300 hover:shadow-lg">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between">
